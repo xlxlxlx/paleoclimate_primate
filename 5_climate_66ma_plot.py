@@ -2,7 +2,7 @@
 # Input: (1) a table storing number of cds/genome hits 
 #            in each primate clade 
 #            (output of divergence_time_clades_hits.py)
-#        (2) climate66mya.csv table
+#        (2) climate66ma.csv table
 # Output: a plot shows estimated gene frequency along with
 #         global surface temperature in recent 66 million years
 #########
@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 fn = "clades_gene_hits_0.8_dedup.csv"
 df = pd.read_csv(fn)
 
-fn2 = "climate66mya.csv"
+fn2 = "climate66ma.csv"
 df2 = pd.read_csv(fn2)
 
 x_axis_list = list(np.linspace(0, 71, 142+1))
