@@ -1,6 +1,6 @@
 #########
 # Input: (1) divergence_time.csv table
-#        (2) climate66ma.csv table
+#        (2) climate66mya.csv table
 # Output: separate zoomed in plots showing estimated 
 #         divergence time and range for primate clades 
 #         along with global surface temperature curve

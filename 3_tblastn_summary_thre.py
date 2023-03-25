@@ -56,8 +56,7 @@ protein_sequence_list = eval(f"protein_sequence_list_{protein_type}")
 identity_threshold = coverage_threshold = filter_thre
 table_name = f"protein_primate_species_{sequence_type}_{protein_type}_thre{filter_thre}"
 
-query_cmd = f"select * from {table_name}"
-where Percentage_identity > {identity_threshold} and percentage_query_coverage_per_subject > {coverage_threshold}"
+query_cmd = f"select * from {table_name} where Percentage_identity > {identity_threshold} and percentage_query_coverage_per_subject > {coverage_threshold}"
 
 rst = cur.execute(query_cmd)
 

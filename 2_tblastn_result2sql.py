@@ -29,7 +29,7 @@ sequence_type = "cds"
 # denovo or cgc
 protein_type = "cgc"
 
-filepath = f".../rst_tblastn/"+f"rst_{sequence_type}_ensembl_ncbi_{protein_type}/"
+filepath = f"../rst_tblastn/"+f"rst_{sequence_type}_ensembl_ncbi_{protein_type}/"
 table_name = f"protein_primate_species_{sequence_type}_{protein_type}_thre{filter_thre}"
 
 for f in os.listdir(filepath):

@@ -135,14 +135,14 @@ for sequence_type in sequence_type_list:
         
 # calculate total number of hits in cds for each clade
 df_clades_hits['count_all_cds'] = 0
-if 'count_cds_cgc' in df_clades_hits.column.names:
+if 'count_cds_cgc' in df_clades_hits.columns:
     df_clades_hits['count_all_cds'] += df_clades_hits['count_cds_cgc']
 if 'count_cds_denovo' in df_clades_hits.columns:
     df_clades_hits['count_all_cds'] += df_clades_hits['count_cds_denovo']
 
 # calculate total number of hits in genomes for each clade
 df_clades_hits['count_all_genome'] = 0
-if 'count_genome_cgc' in df_clades_hits.column.names:
+if 'count_genome_cgc' in df_clades_hits.columns:
     df_clades_hits['count_all_genome'] += df_clades_hits['count_genome_cgc']
 if 'count_genome_denovo' in df_clades_hits.columns:
     df_clades_hits['count_all_genome'] += df_clades_hits['count_genome_denovo']
