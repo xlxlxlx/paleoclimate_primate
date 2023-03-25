@@ -16,7 +16,7 @@ The random 100 genes and their corresponding proteins used in this study
 The genome accession numbers for the 32 primate genomes used in this study
 
 
-# Runn the scripts
+# Run the scripts
 Run the scripts in the order in filenames:
 - 1_tblastn_genome_cds.py    
 Align protein sequence to genome or CDS sequence
@@ -43,7 +43,7 @@ The database table creation file when a new table is needed
 
 # Input data for scripts
 Input files needed for the scripts are under `input_data/`.   
-`clades_divergence_time.csv` and `divergence_time.csv` are derived from TimeTree database [^3]. `climate66ma` is obtained from Hansen et al. [^4]. 
+`clades_divergence_time.csv` and `divergence_time.csv` are derived from TimeTree database [^3]. `climate66ma.csv` is obtained from Hansen et al. [^4]. 
 
 [^1]: "UniProt: the universal protein knowledgebase in 2021." Nucleic acids research 49, no. D1 (2021): D480-D489.
 [^2]: Sondka, Zbyslaw, et al. "The COSMIC Cancer Gene Census: describing genetic dysfunction across all human cancers." Nature Reviews Cancer 18.11 (2018): 696-705.
