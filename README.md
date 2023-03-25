@@ -22,7 +22,7 @@ A random set of 180 human genes and their corresponding proteins used in this st
 The genome accession numbers for the 32 primate genomes used in this study
 
 - Homo_sapiens_GRCh38_cds_list.csv   
-The full human gene list extracted from human CDS sequence obtained from Ensembl [^3]
+The full human gene list extracted from human CDS sequence obtained from Ensembl [^3]. Note there are duplicated gene names
 
 - fasta2genelist.py
 The script used to extract the full human gene list from human CDS sequence file
