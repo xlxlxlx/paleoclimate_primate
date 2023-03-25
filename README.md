@@ -42,7 +42,7 @@ In addition:
 The database table creation file when a new table is needed
 
 # Input data for scripts
-Input files needed for the scripts are under `input_data`.   
+Input files needed for the scripts are under `input_data/`.   
 `clades_divergence_time.csv` and `divergence_time.csv` are derived from TimeTree database [^1]. `climate66ma` is obtained from Hansen et al. [^2]. 
 
 
