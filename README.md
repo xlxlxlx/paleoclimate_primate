@@ -2,7 +2,7 @@
 
 This is a repository storing data and scripts used in our manuscript titled "Towards Understanding Paleoclimate Impacts on Primate De Novo Genes".
 
-# Data files
+## Data files
 - uniprot_cgc.tsv   
 The UniProt ID mapping [^1] result for the original 733 cancer associated genes obtained from Cancer Gene Census [^2]. Note that this table contains both reviewed and unreviewed proteins. 
 
@@ -16,7 +16,7 @@ The random 100 genes and their corresponding proteins used in this study
 The genome accession numbers for the 32 primate genomes used in this study
 
 
-# Run the scripts
+## Run the scripts
 Run the scripts in the order in filenames:
 - 1_tblastn_genome_cds.py    
 Align protein sequence to genome or CDS sequence
@@ -41,7 +41,7 @@ In addition:
 - climate_primate.sql    
 The database table creation file when a new table is needed
 
-# Input data for scripts
+## Input data for scripts
 Input files needed for the scripts are under `input_data/`.   
 `clades_divergence_time.csv` and `divergence_time.csv` are derived from TimeTree database [^3]. `climate66ma.csv` is obtained from Hansen et al. [^4]. 
 
