@@ -10,7 +10,7 @@ The UniProt ID mapping [^1] result for the original 733 cancer associated genes 
 The de novo genes obtained from literature and used in this study
 
 - cgc_random100_gene_protein_list.xlsx    
-The random 100 genes and their corresponding proteins used in this study
+A random set of 100 CGC [^2] genes and their corresponding proteins used in this study
 
 - uniprot_random60_reviewed_dedup.csv   
 A random set of 60 human genes and their corresponding proteins used in this study
