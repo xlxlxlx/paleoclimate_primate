@@ -1,6 +1,6 @@
 # Towards Understanding Paleoclimate Impacts on Primate De Novo Genes
 
-This is a repository storing data and scripts used in our manuscript titled "Towards Understanding Paleoclimate Impacts on Primate De Novo Genes".
+This is a repository storing data and scripts used in our manuscript titled "Towards Understanding Paleoclimate Impacts on Primate De Novo Genes" (https://doi.org/10.1093/g3journal/jkad135).
 
 ## Data files
 - uniprot_cgc.tsv   
